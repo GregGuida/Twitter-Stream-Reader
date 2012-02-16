@@ -1,0 +1,5 @@
+==TwitterStreamReader==
+
+Simple project to stream tweets from the twitter streaming api and store them in a mysql database
+
+
