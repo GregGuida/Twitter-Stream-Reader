@@ -4,7 +4,7 @@ import requests
 import json
 
 requestobject = requests.post('https://stream.twitter.com/1/statuses/sample.json',
-        auth=('whochirp','ichirpyouchirp'))
+        auth=(argsv[1],argsv[2]))
 
 for line in requestobject.iter_lines():
     if line:
